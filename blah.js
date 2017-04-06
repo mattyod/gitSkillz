@@ -14,3 +14,7 @@ function () {
   };
 }
 
+console.log('doo');
+
+foo
+foo
