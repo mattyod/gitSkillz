@@ -1,0 +1,19 @@
+{
+  "name": "gitskillz",
+  "version": "1.0.1",
+  "description": "mucking about",
+  "main": "blah.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattyod/gitSkillz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattyod/gitSkillz/issues"
+  },
+  "homepage": "https://github.com/mattyod/gitSkillz#readme"
+}
