@@ -1,0 +1,16 @@
+name: Trigger in PR
+
+on:
+  pull_request:
+    types: [labeled]
+    branches:
+      - '**'
+
+jobs:
+  demonstrate:
+    name: Demonstrate
+    if: github.event.label.name == 'deploy to lab'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - run: echo Deploying to lab
