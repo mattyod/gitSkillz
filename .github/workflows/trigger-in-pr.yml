@@ -8,7 +8,7 @@ on:
 
 jobs:
   demonstrate:
-    name: Demonstrate
+    name: Demonstrate triggering workflow
     if: github.event.label.name == 'deploy to lab'
     runs-on: ubuntu-latest
     timeout-minutes: 5
